@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: sudo su&&apt install speedtest-cli&&speedtest
+        run: sudo apt install speedtest-cli&&sudo speedtest
